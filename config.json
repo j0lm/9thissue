@@ -1,0 +1,31 @@
+{
+  "links": [
+    { "label": "Steam",  "url": "https://steamcommunity.com/id/yourprofile" },
+    { "label": "FaceIT", "url": "https://www.faceit.com/en/players/yourprofile" }
+  ],
+  "specs": [
+    { "label": "CPU",         "value": "AMD Ryzen 5 7600" },
+    { "label": "GPU",         "value": "AMD Radeon RX 7900 XT" },
+    { "label": "RAM",         "value": "32GB Corsair Vengeance RGB DDR5 6000MHz" },
+    { "label": "Storage",     "value": "WD Black SN850X 2TB" },
+    { "label": "Motherboard", "value": "MSI MAG B650 Tomahawk" },
+    { "label": "Cooling",     "value": "NZXT Kraken 360" },
+    { "label": "Case",        "value": "Hyte Y60" },
+    { "label": "PSU",         "value": "Corsair RM850x" }
+  ],
+  "peripherals": [
+    { "label": "Mouse",     "value": "OP1 8k" },
+    { "label": "Keyboard",  "value": "Wooting 80HE" },
+    { "label": "Monitor",   "value": "MSI" },
+    { "label": "Headphones",   "value": "Sennheiser HD 6XX" },
+    { "label": "Microphone",   "value": "Audio-Technica AT2035" },
+    { "label": "Mousepad",  "value": "Artisan Ninja FX Soft" }
+  ],
+  "cs2": [
+    { "label": "Sensitivity",     "value": "1" },
+    { "label": "DPI",             "value": "800" },
+    { "label": "eDPI",            "value": "800" },
+    { "label": "Resolution",      "value": "1440x1080" },
+    { "label": "Crosshair Code",  "value": "", "mono": true, "copy": true }
+  ]
+}
