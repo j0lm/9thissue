@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blog — 9th issue</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">9th issue</a>
+    <div class="nav-links">
+      <a href="blog.html" class="active">blog</a>
+      <a href="gallery.html">gallery</a>
+    </div>
+  </nav>
+
+  <main class="page">
+
+    <!-- List view -->
+    <div class="blog-list-view">
+      <div class="page-header">
+        <span class="page-title">blog</span>
+        <span id="post-count" style="font-size:0.72rem;color:var(--muted);"></span>
+      </div>
+
+      <div class="blog-controls">
+        <input
+          type="search"
+          class="search-input"
+          id="search"
+          placeholder="search posts..."
+          autocomplete="off"
+        >
+        <div class="tag-filter" id="tag-filter"></div>
+      </div>
+
+      <div class="blog-list" id="blog-list"></div>
+    </div>
+
+    <!-- Detail view -->
+    <div class="blog-detail" id="blog-detail">
+      <button class="back-btn" id="back-btn">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M9 2L4 7l5 5"/>
+        </svg>
+        back
+      </button>
+      <h1 class="detail-title" id="detail-title"></h1>
+      <div class="detail-meta">
+        <span class="post-date" id="detail-date"></span>
+        <div class="post-tags" id="detail-tags"></div>
+      </div>
+      <div class="blog-content" id="detail-content"></div>
+    </div>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>
