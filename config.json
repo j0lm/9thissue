@@ -1,7 +1,7 @@
 {
   "links": [
-    { "label": "Steam",  "url": "https://steamcommunity.com/id/yourprofile" },
-    { "label": "FaceIT", "url": "https://www.faceit.com/en/players/yourprofile" }
+    { "label": "Steam",  "url": "https://steamcommunity.com/id/kosmicdotexe" },
+    { "label": "FaceIT", "url": "https://www.faceit.com/en/players/Kosmic" }
   ],
   "specs": [
     { "label": "CPU",         "value": "AMD Ryzen 5 7600" },
