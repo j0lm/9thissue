@@ -14,9 +14,9 @@
     { "label": "PSU",         "value": "Corsair RM850x" }
   ],
   "peripherals": [
-    { "label": "Mouse",     "value": "OP1 8k" },
+    { "label": "Mouse",     "value": "Endgame Gear OP1 8k" },
     { "label": "Keyboard",  "value": "Wooting 80HE" },
-    { "label": "Monitor",   "value": "MSI" },
+    { "label": "Monitor",   "value": "MSI MPG 271QRX QD-OLED" },
     { "label": "Headphones",   "value": "Sennheiser HD 6XX" },
     { "label": "Microphone",   "value": "Audio-Technica AT2035" },
     { "label": "Mousepad",  "value": "Artisan Ninja FX Soft" }
@@ -26,6 +26,7 @@
     { "label": "DPI",             "value": "800" },
     { "label": "eDPI",            "value": "800" },
     { "label": "Resolution",      "value": "1440x1080" },
-    { "label": "Crosshair Code",  "value": "", "mono": true, "copy": true }
+    { "label": "Crosshair Code",  "value": "CSGO-BzWVV-oEV4T-pGMmp-ijEkc-vff4D", "mono": true, "copy": true },
+    { "label": "Crosshair Commands", "value": "cl_crosshairstyle 4; cl_crosshairsize 1; cl_crosshairthickness 0.5; cl_crosshairgap -4; cl_crosshair_drawoutline true; cl_crosshair_outlinethickness 1; cl_crosshaircolor 1; cl_crosshairalpha 185;", "mono": true, "copy": true }
   ]
 }
